@@ -1,0 +1,47 @@
+node_modules/
+.expo/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# EAS Build
+eas-build-*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Expo
+app/mobile/.expo/
+apps/mobile/ios/
+apps/mobile/android/
+
+# Build output
+backend/.wrangler/
+backend/worker-configuration.d.ts
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/

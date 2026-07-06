@@ -1,0 +1,16 @@
+name = "mini-candy-backend"
+main = "src/index.ts"
+compatibility_date = "2026-07-06"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "mini-candy-kv"
+preview_id = "mini-candy-kv-preview"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mini-candy-db"
+database_id = "mini-candy-db-id"

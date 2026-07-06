@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Mini Candy backend API",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "tsc"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "typescript": "^6.0.3",
+    "wrangler": "^4.107.0"
+  },
+  "dependencies": {
+    "hono": "^4.10.6",
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}

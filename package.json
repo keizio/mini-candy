@@ -1,0 +1,20 @@
+{
+  "name": "shipaton-project",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/mobile",
+    "backend"
+  ],
+  "scripts": {
+    "mobile": "cd apps/mobile && npm start",
+    "mobile:android": "cd apps/mobile && npm run android",
+    "mobile:ios": "cd apps/mobile && npm run ios",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:deploy": "cd backend && npm run deploy",
+    "install:all": "npm install && cd apps/mobile && npm install && cd ../backend && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
